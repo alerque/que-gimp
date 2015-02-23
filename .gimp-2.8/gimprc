@@ -19,7 +19,7 @@
 (undo-size 512M)
 (thumbnail-size large)
 (default-view
-    (show-menubar no)
+    (show-menubar yes)
     (show-statusbar no)
     (show-rulers no)
     (show-scrollbars no)

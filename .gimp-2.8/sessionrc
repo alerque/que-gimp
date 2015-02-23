@@ -60,7 +60,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 613)
+            (position 629)
             (current-page 6)
             (dockable "gimp-layer-list"
                 (locked)
@@ -120,6 +120,9 @@
     (factory-entry "gimp-controller-action-dialog")
     (position 2215 20)
     (size 845 1040))
+(session-info "toplevel"
+    (factory-entry "gimp-image-new-dialog")
+    (position 1680 0))
 
 (hide-docks no)
 (single-window-mode yes)
