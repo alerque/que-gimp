@@ -45,6 +45,7 @@
 (save-tool-options yes)
 (show-tooltips no)
 (toolbox-foo-area yes)
+(theme "Darker GIMP_Orange")
 (show-help-button no)
 
 

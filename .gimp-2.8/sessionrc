@@ -16,7 +16,7 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "68")
-        (right-docks-width "297")
+        (right-docks-width "299")
         (maximized "no"))
     (gimp-toolbox
         (side left))
@@ -60,7 +60,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 629)
+            (position 628)
             (current-page 6)
             (dockable "gimp-layer-list"
                 (locked)
@@ -100,7 +100,7 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 1680 194))
+    (position 1797 195))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
     (position 1942 253)

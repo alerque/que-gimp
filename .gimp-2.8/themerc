@@ -4,7 +4,7 @@
 # It is NOT supposed to be edited manually. Edit your personal
 # gtkrc file instead (/home/caleb/.gimp-2.8/gtkrc).
 
-include "/usr/share/gimp/2.0/themes/Default/gtkrc"
+include "/home/caleb/.gimp-2.8/themes/Darker GIMP_Orange/gtkrc"
 include "/home/caleb/.gimp-2.8/gtkrc"
 
 # end of themerc
