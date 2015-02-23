@@ -8,8 +8,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
     (position 1680 0)
-    (size 1920 1080)
-    (open-on-exit))
+    (size 1920 1080))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 1680 0)
@@ -113,6 +112,14 @@
     (factory-entry "gimp-module-dialog")
     (position 1700 458)
     (size 218 319))
+(session-info "toplevel"
+    (factory-entry "gimp-controller-editor-dialog")
+    (position 1915 190)
+    (size 804 782))
+(session-info "toplevel"
+    (factory-entry "gimp-controller-action-dialog")
+    (position 2215 20)
+    (size 845 1040))
 
 (hide-docks no)
 (single-window-mode yes)
