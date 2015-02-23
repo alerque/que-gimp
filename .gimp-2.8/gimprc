@@ -1,0 +1,50 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/2.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(default-image
+    (width 1600)
+    (height 1200)
+    (unit pixels)
+    (xresolution 72.000000)
+    (yresolution 72.000000)
+    (resolution-unit inches)
+    (image-type rgb)
+    (fill-type transparent-fill))
+(undo-size 512M)
+(thumbnail-size large)
+(default-view
+    (show-menubar no)
+    (show-statusbar no)
+    (show-rulers no)
+    (show-scrollbars no)
+    (show-selection yes)
+    (show-layer-boundary yes)
+    (show-guides no)
+    (show-grid no)
+    (show-sample-points yes)
+    (padding-mode default)
+    (padding-color (color-rgb 1.000000 1.000000 1.000000)))
+(default-fullscreen-view
+    (show-menubar no)
+    (show-statusbar no)
+    (show-rulers no)
+    (show-scrollbars no)
+    (show-selection no)
+    (show-layer-boundary no)
+    (show-guides no)
+    (show-grid no)
+    (show-sample-points yes)
+    (padding-mode default)
+    (padding-color (color-rgb 1.000000 1.000000 1.000000)))
+(save-tool-options yes)
+(show-tooltips no)
+(toolbox-foo-area yes)
+(show-help-button no)
+
+
+# end of gimprc

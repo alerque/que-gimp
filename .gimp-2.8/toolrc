@@ -104,33 +104,33 @@
     (visible yes))
 (GimpToolInfo "gimp-desaturate-tool"
     (stock-id "gimp-tool-desaturate")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-color-balance-tool"
     (stock-id "gimp-tool-color-balance")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-hue-saturation-tool"
     (stock-id "gimp-tool-hue-saturation")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-colorize-tool"
     (stock-id "gimp-tool-colorize")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-brightness-contrast-tool"
     (stock-id "gimp-tool-brightness-contrast")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-threshold-tool"
     (stock-id "gimp-tool-threshold")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-levels-tool"
     (stock-id "gimp-tool-levels")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-curves-tool"
     (stock-id "gimp-tool-curves")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-posterize-tool"
     (stock-id "gimp-tool-posterize")
-    (visible no))
+    (visible yes))
 (GimpToolInfo "gimp-gegl-tool"
     (stock-id "gimp-gegl")
-    (visible no))
+    (visible yes))
 
 # end of toolrc

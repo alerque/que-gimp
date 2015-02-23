@@ -19,7 +19,7 @@
                     (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-dock-window")
-    (position 3599 0)
+    (position 3390 0)
     (size 210 820)
     (open-on-exit)
     (aux-info
@@ -71,6 +71,16 @@
     (factory-entry "gimp-single-image-window")
     (position 160 70)
     (size 1140 780))
+(session-info "toplevel"
+    (factory-entry "gimp-preferences-dialog")
+    (position 1680 194))
+(session-info "toplevel"
+    (factory-entry "gimp-keyboard-shortcuts-dialog")
+    (position 1942 253)
+    (size 463 642))
+(session-info "toplevel"
+    (factory-entry "gimp-input-devices-dialog")
+    (position 1821 95))
 
 (hide-docks no)
 (single-window-mode no)
