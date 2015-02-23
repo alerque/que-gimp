@@ -9,8 +9,8 @@
     (controller "ControllerLinuxInput"
         (device "Griffin PowerMate"))
     (mapping
-        (map "dial-turn-left" "tools-value-2-decrease-percent")
-        (map "dial-turn-right" "tools-value-2-increase-percent")))
+        (map "dial-turn-left" "tools-value-2-decrease")
+        (map "dial-turn-right" "tools-value-2-increase")))
 (GimpControllerInfo "Main Mouse Wheel"
     (stock-id "gimp-controller-wheel")
     (enabled yes)
