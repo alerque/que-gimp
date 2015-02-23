@@ -14,7 +14,8 @@
     (yresolution 72.000000)
     (resolution-unit inches)
     (image-type rgb)
-    (fill-type transparent-fill))
+    (fill-type transparent-fill)
+    (comment "Created with GIMP"))
 (undo-size 512M)
 (thumbnail-size large)
 (default-view

@@ -6,71 +6,99 @@
 # you quit GIMP.  If this file isn't found, defaults are used.
 
 (session-info "toplevel"
-    (factory-entry "gimp-toolbox-window")
-    (position 1680 0)
-    (size 170 820)
-    (open-on-exit)
-    (gimp-toolbox
-        (book
-            (current-page 0)
-            (dockable "gimp-tool-options"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true"))))))
-(session-info "toplevel"
-    (factory-entry "gimp-dock-window")
-    (position 3390 0)
-    (size 210 820)
-    (open-on-exit)
-    (aux-info
-        (show-image-menu "false")
-        (follow-active-image "true"))
-    (gimp-dock
-        (book
-            (current-page 0)
-            (dockable "gimp-layer-list"
-                (tab-style automatic)
-                (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-channel-list"
-                (tab-style automatic)
-                (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-vectors-list"
-                (tab-style automatic)
-                (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-undo-history"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true"))))
-        (book
-            (position 420)
-            (current-page 0)
-            (dockable "gimp-brush-grid"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-pattern-grid"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-gradient-list"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true"))))))
-(session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
     (position 1680 0)
     (size 1920 1080)
     (open-on-exit))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 160 70)
-    (size 1140 780))
+    (position 1680 0)
+    (size 1920 1080)
+    (open-on-exit)
+    (aux-info
+        (left-docks-width "68")
+        (right-docks-width "297")
+        (maximized "no"))
+    (gimp-toolbox
+        (side left))
+    (gimp-dock
+        (side right)
+        (book
+            (current-page 0)
+            (dockable "gimp-tool-options"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-color-editor"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (current-page "GimpColorSelect")))
+            (dockable "gimp-brush-grid"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-pattern-grid"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-gradient-list"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-dynamics-list"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-tool-preset-list"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))
+        (book
+            (position 613)
+            (current-page 6)
+            (dockable "gimp-layer-list"
+                (locked)
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-channel-list"
+                (locked)
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-vectors-list"
+                (locked)
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-undo-history"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-navigation-view"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-histogram-editor"
+                (locked)
+                (tab-style automatic))
+            (dockable "gimp-buffer-list"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
     (position 1680 194))
@@ -81,9 +109,13 @@
 (session-info "toplevel"
     (factory-entry "gimp-input-devices-dialog")
     (position 1821 95))
+(session-info "toplevel"
+    (factory-entry "gimp-module-dialog")
+    (position 1700 458)
+    (size 218 319))
 
 (hide-docks no)
-(single-window-mode no)
+(single-window-mode yes)
 (last-tip-shown 0)
 
 # end of sessionrc
